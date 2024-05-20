@@ -1,0 +1,13 @@
+web cache poisoning : 
+
+LAB-2:
+idea is- the value in cookie is vulnerable
+
+LAB-3:
+idea is- should use two header :
+X-Forwarded-Scheme: http
+X-Forwarded-Host: example.com
+
+LAB-4:
+idea is- most header not allowed- 
+by extension param miner send the request to guess the allow header

@@ -1,0 +1,36 @@
+NEED MORE INFO '16'
+
+XSS
+SSRF
+SSTI
+CORS
+LFI
+logic
+FILE UPLOAD
+CSRF
+ACCESS CONTROL
+INFORMATION DISCULAR
+IDOR 
+OPEN REDIRECT
+SQL                      need more
+OAUTH                    need more
+XEE/XML                  need more
+Cache POISONING          need more
+OS INJECTION             need more
+Authorization            need more
+hyperlink on email -->                saphora bug
+
+---------------------------------
+NO INFO '11'
+
+Subdomain takeover
+HTTP request smuggling
+RACE CONDITION
+SQL BLIND
+CRLF
+xss blind
+CSP BYPASS
+XST
+XCS
+HOST HEADER INJECTION
+RFI

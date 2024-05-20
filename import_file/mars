@@ -1,0 +1,15 @@
+scope:royalcanin.com
+
+email:sally.perea@royalcanin.com
+username:sa
+password: "Lalalala123456#"
+
+https://github.com/TheKeenfolksDigital/royal_canine_okta/blob/a9fff1177486756287c8f7a25722c6743f439fb8/config.yaml#L5
+
+https://accountdev.royalcanin.com/oauth2/default/v1/authorize?client_id=0oa1wzon1sbWEGKz40h8&code_challenge=DxHSp1hx_x5depiEulye_NLA8XJ8UWCvub3YUTHWpcs&code_challenge_method=S256&nonce=YKSnIL7BhBIRTSA2SeGvcDuiZ9RDD3N6Dcgn9fK1i0iuP9NAKHYXw6X6Q6w30kIV&redirect_uri=https%3A%2F%2Fprd-weu1-rc-df-myaccount-app-webapp-dev.cloud-effem.com%2Fimplicit%2Fcallback&response_type=code&state=C&scope=openid profile email phone address groups user.profile%3Awrite user.password%3Awrite user%3Adelete user.consent%3Aread user.consent%3Acollect user.consent%3Adelete user.phone%3Asend urls.whitelist%3Aread
+
+
+
+Admin panal : https://spsah2.securevetsource.com/cust.SiteAdmin.pml?tab=2
+
+view-source:https://www.snapfish.com/home

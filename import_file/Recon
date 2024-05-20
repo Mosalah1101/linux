@@ -1,0 +1,66 @@
+ 1->enumerate subdomain:
+		         subfinder -u "examole.com"
+		         amass enum -passive -d "example.com"
+		         assestifnder
+		         subfinder -u "exmaple.com"
+
+ 2->Get ASN - CIDR:
+                      Website:
+								MXtoolbox.com --> this website provide ASN and CIDR by the company name < ASN Number and CIDR Range >
+		
+	                  OR < Command line >
+     
+                                         -->ASN:
+			                                         amass intel -org <company_name>
+		                                  OR
+												     Website: https://bgp.he.net
+
+										 --> CIDR:
+												     whois -h whois.radb.net --' -i origin < AS_Number >' |grep -Eo "[(0-9.]+){4}/[0-9]+" sort -u
+
+ Now you got ASN number and CIDR range --> now catch the subdomains and  IPs
+
+  -> BY < ASN Number >:
+               		 amass intel -asn < ASN Number >
+  -> BY < CIDR Range >:
+					 amass intel -cidr < CIDR_Number >
+ 	 
+  -> whois reverse:
+                    amass intel -whois -d "comapny_name"
+
+  -> website:
+	      https://crt.sh 
+
+  -> website:
+	      https://waybackurl.com
+
+
+  ->Google Dork :
+               site: example.com  ext: txt/old/backup/php/pdf
+               site: examle.com   inurl: admin /index/adminpanal
+
+  ->Github dorking :
+                 "name company" creds/password/username/api_key/secret_key/AWS
+  ->Shodan:
+		hostname:< domain_name >
+  ->censys:
+        same shodan - search of keyword
+
+	Now you have alot of subdomains and IPs
+
+
+  -> email development:
+                   theHarvester -d < domain-name > -b all
+
+
+
+  ->Parameters: tools:
+                  katana -u " https://example.com " | grep "?"
+				  echo "https://example.com" | gau |grep "?"
+
+ ->js_files:
+	      katana -u " https://example.com " | grep ".js$"
+	      echo "https://example.com" | gau |grep ".js$"
+
+ ->search in js files: tool:
+		             	 cat js.file | Mantra    ---> can you find false positive
